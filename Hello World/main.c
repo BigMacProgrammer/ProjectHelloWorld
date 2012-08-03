@@ -24,5 +24,5 @@ void PrintHelloWorld(void)
 
 void PrintUserName(char *name)
 {
-    printf("hello, %s",name);
+    printf("hello, %s, how are you today!?",name);
 }
