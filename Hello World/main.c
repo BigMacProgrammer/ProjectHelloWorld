@@ -8,11 +8,16 @@
 
 #include <stdio.h>
 
+void PrintHelloWorld(void);
+
 int main(int argc, const char * argv[])
 {
     //Adding my first comment
-    // insert code here...
-    printf("Hello, World!\n");
+    PrintHelloWorld();
     return 0;
+}
+void PrintHelloWorld(void)
+{
+    printf("Hello, World!\n");
 }
 
