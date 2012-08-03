@@ -18,6 +18,6 @@ int main(int argc, const char * argv[])
 }
 void PrintHelloWorld(void)
 {
-    printf("Hello, World!\n");
+    printf("Hello, World!");
 }
 
