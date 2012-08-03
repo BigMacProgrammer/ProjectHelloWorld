@@ -9,6 +9,7 @@
 #include <stdio.h>
 
 void PrintHelloWorld(void);
+void PrintUserName(char *name);
 
 int main(int argc, const char * argv[])
 {
@@ -21,3 +22,7 @@ void PrintHelloWorld(void)
     printf("Hello, World!");
 }
 
+void PrintUserName(char *name)
+{
+    printf("hello, %s",name);
+}
